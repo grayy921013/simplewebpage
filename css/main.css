@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-weight: 300;
+  color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.page1 {
+  background-image: url(../image/bg1.jpg);
+}
+.page2 {
+  background-image: url(../image/bg2.jpg);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav ul {
+  text-align: center;
+  list-style: none;
+  padding: 1px;
+  margin: 0;
+}
+nav ul li {
+  margin: 15px 10px;
+  display: inline-block;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.left {
+  float:left;
+  width: 50%;
+  padding: 15px 10px;
+  font-size: 18px;
+  text-align: left;
+}
+.left a {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+}
+.clearleft {
+  clear:both;
+}
+
