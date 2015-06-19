@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: pragmatica, arial, "Microsoft YaHei","微软雅黑",STXihei,"华文细黑",sans-serif !important;
 }
 
 *, *:before, *:after {
@@ -55,6 +56,11 @@ nav ul li a:hover {
   font-size: 18px;
   text-align: left;
 }
+.right {
+  float:right;
+  text-align: right;
+  font-size: 18px;
+}
 .left a {
   font-weight: 300;
   text-transform: uppercase;
@@ -64,4 +70,13 @@ nav ul li a:hover {
 .clearleft {
   clear:both;
 }
-
+.superweight {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+}
+.largeweight {
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+}
