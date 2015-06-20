@@ -7,7 +7,7 @@
     -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>纳木错</title>
+    <title>联系我</title>
 
     <!--
     Disables zooming on mobile devices.
@@ -27,8 +27,15 @@
     <!--
     Font
     -->
+    <script>
+    function sendEmail() {
+        var title = document.getElementById("title").value;
+        var message = document.getElementById("message").value;
+        location.href = "mailto:530712810@qq.com?subject=" + title + "&body=" + message;
+    }
+    </script>
   </head>
-  <body class="page2">
+  <body class="page1">
     <div class="container"> 
     	<nav>
     	<h1 class="center"><span style="font-size: 180%;">
@@ -47,22 +54,13 @@
     	</div>
     	</nav>
         <article>
-            <div class="left fixheight piece1">
-                <h1><a href="http://image.baidu.com/i?tn=baiduimage&ie=utf-8&word=%E8%BF%8E%E5%AE%BE%E7%9F%B3">迎宾石</a></h1>
-                也称为是纳木措湖的门神。相传纳木措是一位女神，她掌管着藏北草原的财富，所以当商贩外出做生意时，必先来到此地祈求门神，在得到门神的同意下方可朝拜纳木措，以保生意兴隆。
-            </div>
-            <div class="left fixheight piece2">
-                <h1 style="text-align:right;"><a href="http://image.baidu.com/i?tn=baiduimage&ie=utf-8&word=%E5%90%88%E6%8E%8C%E7%9F%B3">合掌石</a></h1>
-                也称为父母石及相传它是父亲念青唐古拉山峰和母亲纳木措女神的化身，象征他们忠贞不渝的爱情。此掌为芷传宁玛教派创始人莲花生丈师修行时合掌祈福万物的显像。
-            </div>
-            <div class="left clearleft fixheight piece3">
-                <p class="superweight">
-                    纳木错
-                </p>
-                <p>海一样辽阔的湖面，玛尼堆连成的轨迹，摇曳的五彩经幡，纳木措圣洁的美让人无法抗拒。</p>
-
-            </div>
-            <div class="left fixheight piece4"></div>
+        <form action="" onSubmit="return false;">
+          <label for="title">标题</label>
+          <input name="title" id="title" type="text">
+          <label for="message">留言</label>
+          <textarea name="message" id="message"></textarea>
+          <button type="submit" onClick="return sendEmail();">Submit</button>
+        </form>
         </article>
 	</div> 
   </body>

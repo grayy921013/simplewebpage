@@ -48,6 +48,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  -webkit-filter:blur(1px);
 }
 .left {
   float:left;
@@ -79,4 +80,64 @@ nav ul li a:hover {
   font-size: 50px;
   font-weight: 500;
   margin: 0;
+}
+.fixheight {
+  height:200px;
+}
+.piece1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/bg3_1.jpg);
+}
+.piece2{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/bg3_2.jpg);
+}
+.piece3{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/bg3_3.jpg);
+}
+.piece4{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/bg3_4.jpg);
+}
+form {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+form * {
+  width: 100%;
+}
+
+label {
+  padding: 8px;
+  position: absolute;
+  text-align: right;
+  left: -100%;
+}
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  display: block;
+  margin-bottom: 20px;
+  color: #000;
+}
+button {
+  border: none;
+  border-radius: 9999px;
+  padding: 4px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
 }
