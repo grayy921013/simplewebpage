@@ -20,6 +20,12 @@ body {
 .page2 {
   background-image: url(../image/bg2.jpg);
 }
+.page3 {
+  background-image: url(../image/bg3.jpg);
+}
+.page4 {
+  background-image: url(../image/bg4.jpg);
+}
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
